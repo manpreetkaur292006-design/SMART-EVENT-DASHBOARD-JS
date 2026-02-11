@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>9-FEB-2026</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1 id="main-head">🎯 Smart Event Dashboard</h1>
+      <div id="event-main-div">
+        <div id="new-event">
+          <h2>Add New Event</h2>
+          <form id="Event-form">
+            <div class="form-group">
+              <label for="Event-Title">Event Title</label>
+              <br />
+              <input
+                type="text"
+                id="Event-Title"
+                placeholder="Event Title"
+                name="Event-title"
+              />
+              <br />
+            </div>
+            <div class="form-group">
+              <label for="Event-Date">Event Date</label>
+              <br />
+              <input type="date" id="Event-Date" name="Event-Date" />
+              <br />
+            </div>
+            <div class="form-group">
+              <label for="Category">Category</label>
+              <br />
+              <select id="Category">
+                <option value="Conference">Conference</option>
+                <option value="Workshop">Workshop</option>
+                <option value="Social">Social</option>
+                <option value="Webinar">Webinar</option>
+                <option value="Meetup">Meetup</option>
+              </select>
+              <br />
+            </div>
+            <div class="form-group">
+              <label for="Description">Description</label>
+              <br />
+              <textarea
+                id="Description"
+                placeholder="Type Description"
+              ></textarea>
+            </div>
+          </form>
+          <button id="b1" class="btn">Add Event</button>
+        </div>
+
+        <div id="events">
+          <h2>My Events</h2>
+          <div class="controls">
+            <button id="b2" class="btn">Clear All Events</button>
+            <button id="b3" class="btn">Add Sample Events</button>
+          </div>
+          <div id="Event-container">
+            <div class="empty-state">No events yet. Add your first event!</div>
+          </div>
+        </div>
+      </div>
+      <div id="main-dom-demo">
+        <div id="dom-demo">
+          <h2>DOM Manipulation Demo</h2>
+          <div id="eventstorage">
+            <div id="demoContent" class="demo-content">
+              Press any key to see the difference!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

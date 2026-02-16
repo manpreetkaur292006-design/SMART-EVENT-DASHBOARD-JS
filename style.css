@@ -24,12 +24,14 @@ body {
   font-size: x-large;
   text-align: center;
   margin: 20px;
+  margin-top: 0;
   padding: 10px;
+  padding-top: 0;
 }
 
 #new-event {
   background-color: white;
-  height: 400px;
+  height: 420px;
   width: 280px;
   border-radius: 15px;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
@@ -45,12 +47,12 @@ body {
   margin-left: 20px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   padding: 20px;
-  /* line-height: 45px; */
 }
 
 #main-dom-demo {
   display: flex;
   justify-content: center; 
+  
 }
 
 #my-eves{
@@ -63,18 +65,24 @@ body {
   width: 700px;
   border-radius: 15px;
   margin: 10px;
-  margin-bottom: 45px;
+  margin-bottom: 48px;
   padding-bottom: 30px;
   padding: 15px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   line-height: 40px;
 }
 
-#demoContent{
-    width: 670px;
-    height: 32px;
+#eventstorage{
+  width: 670px;
+    height: 35px;
     border-radius: 10px;
     border: 2px solid grey;
+}
+
+#demoContent{
+    padding-top: 0;
+    padding-left: 10px;
+    padding-bottom: 0;
 }
 
 #event-main-div {

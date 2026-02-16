@@ -10,6 +10,7 @@ const description = document.getElementById("Description");
 const addEventBtn = document.getElementById("b1");
 const clearAllBtn = document.getElementById("b2");
 const addSampleBtn = document.getElementById("b3");
+const democontent=document.getElementById("demoContent")
 
 const eventContainer = document.getElementById("Event-container");
 
@@ -116,6 +117,10 @@ eventContainer.addEventListener("click", (e) => {
   }
 });
 
+// dom manipulation demo
+document.addEventListener("keydown",function(e){
+  democontent.textContent="You Pressed :" + e.key;
+})
 
 
 
